@@ -1,0 +1,97 @@
+body{
+	font-size: 60PX;
+	font-family: serif,Century Gothic;
+	background-color: darkred;
+}
+nav{
+	background-color: #6666aaaa;
+}
+.a:hover{
+	background: black;
+	color: darkred;
+
+}
+.current{
+	text-transform: uppercase;
+	background-color: lightgrey;
+}
+main{
+	background-color: darkred;
+	font-size: 35px;
+}
+header{
+	background-color: #44400fff;
+	text-align: center;
+	color: orange;
+	font-family: serif,Century Gothic;
+}
+h1{ 
+text-align: center;
+color: #fff00033;
+font-family:arail;
+ }
+li{
+	display: grid;
+	width: screen;
+	text-align: left;
+	color: black;
+	size: 35px;
+	margin: auto;
+}
+h4{
+	text-align: center;
+	color: brown;
+	font-family: calibri;
+	float: left;
+}
+img{
+width: 150px;
+height: 150px;
+}
+footer{
+	display: grid;
+	grid-template-columns: 33% 33% 34%;
+	background-color: gray;
+
+}
+p {
+	line-height: 40px;
+text-align: center;
+float: line;
+margin: all;
+
+}
+div{
+	display: grid;
+	grid-template-columns: 33% 33% 22% 22%;
+}
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: green;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+section{
+	width: 100%;
+	webkit-column-count: 1;
+	moz-column-count: 1;
+	-o-column-count: 1;
+	column-count: 1;
+
+webkit-column-gap: 15px;
+moz-column-gap: 15px;
+o-column-gap: 15px;
+column-gap: 15px;
+
+webkit-border-radius: 25px;
+moz-border-radius: 25px;
+o-border-radius: 25px;
+border-radius: 25px;
+}
+
